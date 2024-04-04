@@ -34,7 +34,7 @@ const Navbar = ({ openNav }: Props) => {
                 font-medium tracking-tighter text-white bg-gray-800 rounded-lg group"
           >
             <span
-              className="absolute w-0 h-0transition-all duration-500 ease-out bg-green-600 rounded-full 
+              className="absolute w-0 h-0transition-all duration-500 ease-out bg-red-600 rounded-full 
                 group-hover:w-56 group-hover:h-56"
             ></span>
             <span
