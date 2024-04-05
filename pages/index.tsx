@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Hotels from "@/components/Hotels";
 import MobileNav from "@/components/MobileNav";
 import Navbar from "@/components/Navbar";
 import TopDestination from "@/components/TopDestination";
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Navbar openNav={openNavHandlder} />
       <Hero />
       <TopDestination />
+      <Hotels />
     </div>
   );
 };
