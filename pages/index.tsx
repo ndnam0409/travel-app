@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Reviews from "@/components/Reviews";
 import TopDestination from "@/components/TopDestination";
 import { useState } from "react";
+import Contact from "../components/Contact";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -19,6 +20,7 @@ const HomePage = () => {
       <TopDestination />
       <Hotels />
       <Reviews />
+      <Contact />
     </div>
   );
 };
