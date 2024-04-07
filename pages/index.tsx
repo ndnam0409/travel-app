@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Hotels from "@/components/Hotels";
 import MobileNav from "@/components/MobileNav";
@@ -21,6 +22,7 @@ const HomePage = () => {
       <Hotels />
       <Reviews />
       <Contact />
+      <Footer />
     </div>
   );
 };
